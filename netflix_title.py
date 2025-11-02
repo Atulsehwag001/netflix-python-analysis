@@ -10,6 +10,7 @@ top_countries.plot(kind='bar', color='red')
 plt.title("Top 10 Countries by Netflix Content", fontsize=16)
 plt.xlabel("Country")
 plt.ylabel("Number of Titles")
-plt.xticks(rotation=45)
+plt.xticks(rotation=90)
 plt.savefig("netflix_top_countries.png")
+
 plt.show()
